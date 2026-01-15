@@ -1,6 +1,7 @@
-export { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
-
 // Generate login URL at runtime so redirect URI reflects the current origin.
+
+const COOKIE_NAME = "manus_auth";
+const ONE_YEAR_MS = 365 * 24 * 60 * 60 * 1000;
 export const getLoginUrl = () => {
   const oauthPortalUrl = import.meta.env.VITE_OAUTH_PORTAL_URL;
   const appId = import.meta.env.VITE_APP_ID;
