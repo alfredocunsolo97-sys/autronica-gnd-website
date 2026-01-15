@@ -44,7 +44,7 @@ export default function FloatingCTA() {
         <div className="flex flex-col gap-3 animate-in slide-in-from-bottom duration-300">
           <Button
             size="lg"
-            className="w-14 h-14 rounded-full bg-accent text-accent-foreground hover:bg-accent/90 shadow-xl shadow-accent/50 hover:shadow-accent/70 transition-all duration-300 hover:scale-110"
+            className="w-14 h-14 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 shadow-xl shadow-primary/50 hover:shadow-primary/70 transition-all duration-300 hover:scale-110"
             asChild
           >
             <a

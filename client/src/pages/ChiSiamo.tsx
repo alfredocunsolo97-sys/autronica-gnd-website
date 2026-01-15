@@ -78,14 +78,14 @@ export default function ChiSiamo() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/30 rounded-full">
-                <span className="text-sm font-semibold text-accent uppercase tracking-wider">
-                  La Nostra Missione
-                </span>
-              </div>
-              <h2 className="text-4xl md:text-5xl font-black text-foreground">
-                Innovazione e <span className="text-accent">Qualità</span>
-              </h2>
+            <div className="inline-block px-4 py-2 bg-primary/10 border border-primary/30 rounded-full">
+              <span className="text-sm font-semibold text-primary uppercase tracking-wider">
+                La Nostra Missione
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-black text-foreground">
+              Innovazione e <span className="text-primary">Qualità</span>
+            </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
                   La nostra missione è offrire servizi di meccatronica all'avanguardia, 
@@ -163,14 +163,14 @@ export default function ChiSiamo() {
         
         <div className="container relative z-10">
           <div className="text-center space-y-4 mb-16">
-            <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/30 rounded-full">
-              <span className="text-sm font-semibold text-accent uppercase tracking-wider">
+            <div className="inline-block px-4 py-2 bg-primary/10 border border-primary/30 rounded-full">
+              <span className="text-sm font-semibold text-primary uppercase tracking-wider">
                 <Award className="inline-block w-4 h-4 mr-2" />
                 I Numeri
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-foreground">
-              Risultati che <span className="text-accent">Parlano</span>
+              Risultati che <span className="text-primary">Parlano</span>
             </h2>
           </div>
 
@@ -200,7 +200,7 @@ export default function ChiSiamo() {
             <h2 className="text-4xl md:text-5xl font-black text-foreground leading-tight">
               Entra a Far Parte della
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-primary">
                 Famiglia Autronica
               </span>
             </h2>

@@ -131,7 +131,7 @@ export default function Home() {
               <Button 
                 size="lg" 
                 variant="outline"
-                className="border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground font-bold text-lg px-8 py-6 transition-all duration-300 hover:scale-105"
+                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-bold text-lg px-8 py-6 transition-all duration-300 hover:scale-105"
                 asChild
               >
                 <a href="https://wa.me/390802146765" target="_blank" rel="noopener noreferrer">
@@ -209,12 +209,12 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="text-center space-y-4 mb-16 animate-in fade-in slide-in-from-bottom duration-1000">
             <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/30 rounded-full">
-              <span className="text-sm font-semibold text-accent uppercase tracking-wider">
-                Testimonianze
+              <span className="text-sm font-semibold text-primary uppercase tracking-wider">
+                TESTIMONIANZE
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-foreground">
-              Cosa Dicono i <span className="text-accent">Clienti</span>
+              Cosa Dicono i <span className="text-primary">Clienti</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               La soddisfazione dei nostri clienti è la nostra migliore pubblicità. Leggi le loro esperienze.
@@ -306,7 +306,7 @@ export default function Home() {
               </Button>
               <Button 
                 size="lg" 
-                className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold text-lg px-10 py-7 shadow-2xl shadow-accent/50 hover:shadow-accent/70 transition-all duration-300 hover:scale-110"
+                className="bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-10 py-7 shadow-2xl shadow-primary/50 hover:shadow-primary/70 transition-all duration-300 hover:scale-110"
                 asChild
               >
                 <a href="https://wa.me/390802146765" target="_blank" rel="noopener noreferrer">

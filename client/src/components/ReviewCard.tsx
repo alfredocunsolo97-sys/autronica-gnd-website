@@ -12,7 +12,7 @@ interface ReviewCardProps {
 export default function ReviewCard({ name, text, rating, delay = 0 }: ReviewCardProps) {
   return (
     <Card 
-      className="group bg-card/70 backdrop-blur-sm border-border hover:border-accent/50 transition-all duration-500 hover:scale-105 hover:shadow-xl hover:shadow-accent/20 h-full"
+      className="group bg-card/70 backdrop-blur-sm border-border hover:border-primary/50 transition-all duration-500 hover:scale-105 hover:shadow-xl hover:shadow-primary/20 h-full"
       style={{ animationDelay: `${delay}ms` }}
     >
       <CardContent className="p-6 space-y-4 flex flex-col h-full">
